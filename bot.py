@@ -410,7 +410,7 @@ _OTP_RE = [
     r"(?:WhatsApp|WA)\s*(?:Business\s+)?(?:code|OTP)?\s*(?:is|:)?\s*\b(\d{3}-\d{3})\b",     
     r"(?:کد\s*واتساپ|WhatsApp\s*کد)\s*(?:است|:)?\s*\b(\d{3}-\d{3})\b",                       
     r"(?:Dein|Ihr)\s+WhatsApp\s+Code\s*\b(\d{3}-\d{3})\b",                                   
-    yyr"(?:Telegram|TG)\s*(?:code|OTP)?\s*(?:is|:)?\s*([0-9]{4,8})",
+    r"(?:Telegram|TG)\s*(?:code|OTP)?\s*(?:is|:)?\s*([0-9]{4,8})",
     r"(?:WhatsApp|WA)\s*(?:code|OTP)?\s*(?:is|:)?\s*([0-9]{4,8})",
     r"(?:Telegram|TG)\s*(?:code|OTP)?\s*(?:is|:)?\s*([0-9]{4,8})",
     r"(?:Facebook|FB)\s*(?:code|OTP)?\s*(?:is|:)?\s*([0-9]{4,8})",
