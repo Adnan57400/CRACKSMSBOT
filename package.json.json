@@ -1,0 +1,19 @@
+{
+  "name": "whatsapp-otp-bridge",
+  "version": "2.0.0",
+  "description": "WhatsApp OTP bridge for Crack SMS Bot",
+  "main": "whatsapp_otp.js",
+  "scripts": {
+    "start": "node whatsapp_otp.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.6.0",
+    "pino": "^8.17.2",
+    "node-cache": "^5.1.2",
+    "@hapi/boom": "^10.0.1",
+    "fs-extra": "^11.2.0",
+    "qrcode-terminal": "^0.12.0",
+    "axios": "^1.6.2",
+    "chalk": "^4.1.2"
+  }
+}
